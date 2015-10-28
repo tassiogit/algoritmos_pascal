@@ -1,11 +1,11 @@
-Program Pzim;
+Program conversor_f2c;
 var f, c:real;
 Begin
   writeln('=======================================================');
   writeln('==========  CONVERSOR DE TEMPERATURA (F2C)  ===========');
   writeln();
   
-	write('Temperatura em Fahrenheit: ');
+  write('Temperatura em Fahrenheit: ');
   read(f);
   c := (f-32) * 5/9;
   
